@@ -128,3 +128,9 @@ ul{
 h4{
     padding-left: 15px;
 }
+
+@media (max-width: 600px) {
+    .paricing {
+        flex-direction: column;
+    }
+}
