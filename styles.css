@@ -1,22 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body
 {
-    background-color: white;
+    background-color: rgb(238, 238, 238);
     padding: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    justify-content: center;
+
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
 #header
 {
     background-color: white;
     display: flex;
-    width: 100%;
-    z-index: 100%;
+    width: 1200;
+    z-index: 100;
     position: fixed;
     height: 60px;
 }
+
 ul{
     display: flex;
+    justify-content: space-between;
 }
+
 #header-img
 {
     width: 350px;
+    height: 40px;
 }
+
+#header-img {
+    height: 40px;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: wavy;
+}
+
