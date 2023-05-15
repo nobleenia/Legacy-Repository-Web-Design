@@ -34,9 +34,14 @@ body
 }
 
 ul{
-    margin-left: 200px;
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
+    align-items: end;
+    margin-top: 35px;
+    margin-left: 650px;
+}
+li {
+    margin-left: 15px;
 }
 #nav-bar {
     display: flex;
@@ -128,10 +133,9 @@ ul{
 h4{
     padding-left: 15px;
 }
-@media (max-width:780px)
- {
-    #pricing
-    {
-        flex-direction: column;
+
+@media (max-width: 600px) {
+    .paricing {
+        flex-direction: column0;
     }
 }
